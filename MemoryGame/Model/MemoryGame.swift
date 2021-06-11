@@ -34,7 +34,7 @@ class MemoryGame {
         }
 
         if !currentCardsSelected.isEmpty {
-            checkForEqualCards(card: card)
+            checkIfMatches(card: card)
         }
 
         currentCardsSelected.append(card)
@@ -43,7 +43,7 @@ class MemoryGame {
         
     }
 
-    func checkForEqualCards(card: Card) {
+    func checkIfMatches(card: Card) {
         let firstCardSelected = currentCardsSelected[0]
 
         if firstCardSelected.type == card.type {
