@@ -7,12 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		21DD30153A20D9540CF2249F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21DD3F0E71C44417AA516A71 /* Main.storyboard */; };
+		21DD30D17619A8F73097507D /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21DD332E69592D9D3FD57A2F /* Card.swift */; };
+		21DD36B667EEDBE01AE185CE /* MemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21DD31D6940AFAB68D2B70C7 /* MemoryGame.swift */; };
+		21DD36F5E727C6C67029B210 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21DD3ACB5DCC98EE2F001D4C /* LaunchScreen.storyboard */; };
+		21DD386F4A36281DD5F6408D /* GameState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21DD34A6FA941C36916A4D0B /* GameState.swift */; };
+		21DD3C5B0B91B330F3E86E34 /* CardTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21DD364FFC460FECA4AAFB6E /* CardTypes.swift */; };
 		3AC48ECE267157F200FF499A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC48ECD267157F200FF499A /* AppDelegate.swift */; };
 		3AC48ED0267157F200FF499A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC48ECF267157F200FF499A /* SceneDelegate.swift */; };
 		3AC48ED2267157F200FF499A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC48ED1267157F200FF499A /* ViewController.swift */; };
-		3AC48ED5267157F200FF499A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AC48ED3267157F200FF499A /* Main.storyboard */; };
 		3AC48ED7267157F400FF499A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AC48ED6267157F400FF499A /* Assets.xcassets */; };
-		3AC48EDA267157F400FF499A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AC48ED8267157F400FF499A /* LaunchScreen.storyboard */; };
 		3AC48EE5267157F400FF499A /* MemoryGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC48EE4267157F400FF499A /* MemoryGameTests.swift */; };
 		3AC48EF0267157F400FF499A /* MemoryGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC48EEF267157F400FF499A /* MemoryGameUITests.swift */; };
 /* End PBXBuildFile section */
@@ -35,13 +39,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		21DD31D6940AFAB68D2B70C7 /* MemoryGame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemoryGame.swift; sourceTree = "<group>"; };
+		21DD332E69592D9D3FD57A2F /* Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		21DD34A6FA941C36916A4D0B /* GameState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameState.swift; sourceTree = "<group>"; };
+		21DD364FFC460FECA4AAFB6E /* CardTypes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardTypes.swift; sourceTree = "<group>"; };
+		21DD3ACB5DCC98EE2F001D4C /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		21DD3F0E71C44417AA516A71 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		3AC48ECA267157F200FF499A /* MemoryGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MemoryGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AC48ECD267157F200FF499A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3AC48ECF267157F200FF499A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		3AC48ED1267157F200FF499A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		3AC48ED4267157F200FF499A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3AC48ED6267157F400FF499A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		3AC48ED9267157F400FF499A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3AC48EDB267157F400FF499A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3AC48EE0267157F400FF499A /* MemoryGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MemoryGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AC48EE4267157F400FF499A /* MemoryGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryGameTests.swift; sourceTree = "<group>"; };
@@ -76,6 +84,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		21DD36BA13A2239E4C06544D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				21DD3F0E71C44417AA516A71 /* Main.storyboard */,
+				21DD3ACB5DCC98EE2F001D4C /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		3AC48EC1267157F200FF499A = {
 			isa = PBXGroup;
 			children = (
@@ -99,13 +116,13 @@
 		3AC48ECC267157F200FF499A /* MemoryGame */ = {
 			isa = PBXGroup;
 			children = (
+				3AC48F132671915800FF499A /* Model */,
+				3AC48F122671914F00FF499A /* Controller */,
 				3AC48ECD267157F200FF499A /* AppDelegate.swift */,
 				3AC48ECF267157F200FF499A /* SceneDelegate.swift */,
-				3AC48ED1267157F200FF499A /* ViewController.swift */,
-				3AC48ED3267157F200FF499A /* Main.storyboard */,
 				3AC48ED6267157F400FF499A /* Assets.xcassets */,
-				3AC48ED8267157F400FF499A /* LaunchScreen.storyboard */,
 				3AC48EDB267157F400FF499A /* Info.plist */,
+				21DD36BA13A2239E4C06544D /* View */,
 			);
 			path = MemoryGame;
 			sourceTree = "<group>";
@@ -126,6 +143,25 @@
 				3AC48EF1267157F400FF499A /* Info.plist */,
 			);
 			path = MemoryGameUITests;
+			sourceTree = "<group>";
+		};
+		3AC48F122671914F00FF499A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3AC48ED1267157F200FF499A /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3AC48F132671915800FF499A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				21DD332E69592D9D3FD57A2F /* Card.swift */,
+				21DD31D6940AFAB68D2B70C7 /* MemoryGame.swift */,
+				21DD364FFC460FECA4AAFB6E /* CardTypes.swift */,
+				21DD34A6FA941C36916A4D0B /* GameState.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,9 +267,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3AC48EDA267157F400FF499A /* LaunchScreen.storyboard in Resources */,
 				3AC48ED7267157F400FF499A /* Assets.xcassets in Resources */,
-				3AC48ED5267157F200FF499A /* Main.storyboard in Resources */,
+				21DD30153A20D9540CF2249F /* Main.storyboard in Resources */,
+				21DD36F5E727C6C67029B210 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +297,10 @@
 				3AC48ED2267157F200FF499A /* ViewController.swift in Sources */,
 				3AC48ECE267157F200FF499A /* AppDelegate.swift in Sources */,
 				3AC48ED0267157F200FF499A /* SceneDelegate.swift in Sources */,
+				21DD30D17619A8F73097507D /* Card.swift in Sources */,
+				21DD36B667EEDBE01AE185CE /* MemoryGame.swift in Sources */,
+				21DD3C5B0B91B330F3E86E34 /* CardTypes.swift in Sources */,
+				21DD386F4A36281DD5F6408D /* GameState.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,25 +334,6 @@
 			targetProxy = 3AC48EEC267157F400FF499A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		3AC48ED3267157F200FF499A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3AC48ED4267157F200FF499A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		3AC48ED8267157F400FF499A /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3AC48ED9267157F400FF499A /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		3AC48EF2267157F400FF499A /* Debug */ = {
@@ -446,7 +467,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = treinamentoios.com.MemoryGame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -465,7 +486,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = treinamentoios.com.MemoryGame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
